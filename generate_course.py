@@ -951,7 +951,7 @@ def build_module3():
         ["Crypto (fast markets)",       "8-17-9",           "Faster signals; less lag"],
         ["Forex (scalping, M5-M15)",    "5-13-5",           "Very responsive"],
         ["Stocks (swing trading)",      "12-26-9",          "Standard balanced setting"],
-        ["Futures (position trading)"), "24-52-18",         "Slower, filters noise"],
+        ["Futures (position trading)", "24-52-18",         "Slower, filters noise"],
     ]
     e.append(table2(rows, [170, 100, 168]))
     e.append(sp(8))
@@ -1226,3 +1226,312 @@ def build_module6():
     ]))
     e.append(PageBreak())
     return e
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MODULE 7 — Multi-Timeframe Analysis
+# ══════════════════════════════════════════════════════════════════════════════
+def build_module7():
+    e = []
+    e.append(sp(10))
+    e.append(h1("Module 7 — Multi-Timeframe Analysis"))
+    e.append(hr())
+
+    e.append(h2("7.1  Top-Down Wave Counting"))
+    e.append(p("The most reliable Elliott Wave analysis starts " + b(accent("top-down")) + " — from the highest timeframe to the lowest. The higher timeframe defines the " + b("dominant wave degree") + " and trend direction, while the lower timeframe provides the entry timing."))
+    rows = [
+        [b("Step"), b("Timeframe"),     b("Purpose"),                                b("Wave Degree")],
+        ["1", "Monthly / Weekly",       "Identify Grand Supercycle or Supercycle position", "Grand Supercycle"],
+        ["2", "Daily",                  "Confirm Cycle/Primary wave position",              "Primary"],
+        ["3", "4H / 1H",               "Intermediate wave structure & divergence zones",    "Intermediate"],
+        ["4", "30m / 15m",             "Entry timing & trigger confirmation",               "Minor"],
+        ["5", "5m",                     "Fine-tune entry, stop, position size",              "Minute"],
+    ]
+    e.append(table2(rows, [25, 90, 225, 98]))
+    e.append(sp(6))
+    e.append(p(b("Key principle:") + "  Only take trades " + b(green("in the direction of the higher-timeframe wave")) + ". If the daily chart is in a Wave 3 up, only look for long entries on the 4H/1H. Never fight the higher-timeframe wave."))
+    e.append(sp(8))
+
+    e.append(h2("7.2  Aligning MACD Across Timeframes"))
+    e.append(p("MACD divergence becomes " + b(gold("significantly more powerful")) + " when it appears on multiple timeframes simultaneously."))
+    e.append(bullet(b("Single-timeframe divergence:") + "  Moderate signal — may be overridden by higher-TF momentum"))
+    e.append(bullet(b("Two-timeframe divergence:") + "  Strong signal — high probability reversal"))
+    e.append(bullet(b("Three-timeframe divergence:") + "  Very strong signal — often marks major market turning points"))
+    e.append(sp(6))
+
+    rows = [
+        [b("Scenario"),                          b("TF1"),     b("TF2"),    b("Action")],
+        ["Wave 5 top (bearish)",                 "Daily: bearish div", "4H: bearish div", "Strong sell setup"],
+        ["Wave C bottom (bullish)",              "Daily: bullish div", "4H: bullish div", "Strong buy setup"],
+        ["Wave 2 correction (hidden bull)",      "4H: hidden bull",    "1H: hidden bull", "Buy the pullback"],
+        ["B-wave bounce (hidden bear)",          "Daily: hidden bear", "4H: bearish div", "Sell the bounce"],
+    ]
+    e.append(table2(rows, [170, 120, 120, 28]))
+    e.append(sp(8))
+
+    e.append(h3("Practical Multi-TF Workflow"))
+    e.append(bullet(b("Weekly chart:") + "  Am I in an uptrend or downtrend at the macro level? What wave degree?"))
+    e.append(bullet(b("Daily chart:") + "  Which specific wave is forming? Look for divergence signals"))
+    e.append(bullet(b("4H chart:") + "  Confirm divergence; check wave sub-structure completion"))
+    e.append(bullet(b("1H chart:") + "  Identify exact entry trigger; measure stop loss distance"))
+    e.append(bullet(b("Rule:") + "  If higher-TF MACD is still trending strongly, reduce position size on counter-trend trades"))
+    e.append(sp(8))
+
+    e.append(h3("Common Multi-TF Mistakes to Avoid"))
+    e.append(bullet(b(red("Mistake 1:")) + "  Trading lower-TF divergence against a strong higher-TF wave 3"))
+    e.append(bullet(b(red("Mistake 2:")) + "  Switching timeframes mid-trade to justify a losing position"))
+    e.append(bullet(b(red("Mistake 3:")) + "  Counting waves on a timeframe that is too low for the analysis (too much noise)"))
+    e.append(bullet(b(red("Mistake 4:")) + "  Ignoring that wave degree changes the meaning of divergence signals"))
+    e.append(sp(12))
+
+    e.append(summary_box([
+        "Always work top-down: Weekly → Daily → 4H → 1H → Entry",
+        "Only trade in the direction of the dominant higher-timeframe wave",
+        "Multi-timeframe MACD divergence dramatically increases trade probability",
+        "Three-timeframe divergence alignment often marks major turning points",
+        "Never fight the higher-timeframe wave 3 — the trend is your friend",
+    ]))
+    e.append(PageBreak())
+    return e
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MODULE 8 — Live Examples & Checklists
+# ══════════════════════════════════════════════════════════════════════════════
+def build_module8():
+    e = []
+    e.append(sp(10))
+    e.append(h1("Module 8 — Trade Examples &amp; Checklists"))
+    e.append(hr())
+
+    e.append(h2("8.1  Bullish Setup Example — Wave C Bottom"))
+    e.append(p("The following step-by-step example illustrates a " + b(green("Wave C bottom with bullish MACD divergence")) + " setup:"))
+    rows = [
+        [b("Step"), b("Action"),                    b("Observation")],
+        ["1", "Weekly chart analysis",               "Market in long-term uptrend (Cycle Wave III up); currently in Intermediate (II) correction"],
+        ["2", "Daily chart — count correction",      "Wave A down complete; Wave B up complete; Wave C down underway"],
+        ["3", "Daily MACD check",                    "Wave C low: price below Wave A low; MACD histogram higher low → bullish divergence confirmed"],
+        ["4", "4H chart — sub-wave count",           "Wave C shows 5 sub-waves complete; wave (v) = wave (i) in length"],
+        ["4H MACD", "Confirm divergence on 4H",      "4H MACD also showing bullish divergence at same price level"],
+        ["5", "Wait for trigger on 1H",              "1H chart: bullish engulfing candle above prior swing low; MACD crosses above signal"],
+        ["6", "Entry",                               "Enter long at close of trigger candle"],
+        ["7", "Stop loss",                           "Below Wave C low minus 1 ATR"],
+        ["8", "Target calculation",                  "TP1 = 38.2% retrace of full A-B-C; TP2 = 61.8% retrace; TP3 = Wave B high (full correction end)"],
+        ["9", "Risk/Reward",                         "Typical R/R = 1:2.5 to 1:4 on this setup"],
+    ]
+    e.append(table2(rows, [60, 140, 238]))
+    e.append(sp(8))
+
+    e.append(h2("8.2  Bearish Setup Example — Wave 5 Top"))
+    e.append(p("This example shows a " + b(red("Wave 5 top with bearish MACD divergence")) + " — the signature reversal setup of this course:"))
+    rows = [
+        [b("Step"), b("Action"),                    b("Observation")],
+        ["1", "Daily chart — full impulse count",    "5 waves up from major low clearly labeled 1-2-3-4-5"],
+        ["2", "Wave 3 MACD check",                  "Wave 3 high: MACD histogram at absolute peak for this move"],
+        ["3", "Wave 4 correction",                  "MACD pulls back; stays above zero; price holds above Wave 1 top → count valid"],
+        ["4", "Wave 5 underway",                    "New price high above Wave 3; price makes higher high"],
+        ["5", "MACD divergence confirmed",           "MACD histogram at Wave 5 high is LOWER than Wave 3 high → bearish divergence"],
+        ["6", "Structure check",                    "Wave 5 = Wave 1 in length (Fibonacci equality); possible ending diagonal forming"],
+        ["7", "4H confirmation",                    "4H chart: also shows bearish divergence; shooting star candle at resistance"],
+        ["8", "Entry",                              "Enter short after shooting star confirmation close"],
+        ["9", "Stop loss",                          "Above Wave 5 high + 0.5 ATR"],
+        ["10", "Targets",                           "TP1 = Wave 4 low; TP2 = Wave 2 low (full A-B-C correction expected)"],
+    ]
+    e.append(table2(rows, [60, 140, 238]))
+    e.append(PageBreak())
+
+    e.append(h2("8.3  Master Trading Checklist"))
+    e.append(p("Use this checklist before " + b("every") + " trade. All checked boxes = higher-probability setup."))
+
+    check_sections = [
+        ("WAVE STRUCTURE", [
+            "Higher-timeframe wave direction identified (up or down)",
+            "Current wave position clearly labeled (which wave am I in?)",
+            "Wave count satisfies all three Elliott Wave rules",
+            "Wave is at a logical completion zone (Fibonacci extension/retracement)",
+            "No alternative wave count is significantly more likely",
+        ]),
+        ("MACD DIVERGENCE", [
+            "Divergence type identified (regular / hidden)",
+            "Divergence visible on at least two timeframes",
+            "Trendlines drawn on both price pivots and MACD pivots",
+            "Divergence aligns with expected wave completion point",
+            "MACD histogram — not just MACD line — shows divergence",
+        ]),
+        ("ENTRY TRIGGER", [
+            "Price action trigger present (engulfing, hammer, break of trendline)",
+            "MACD signal line crossover confirms direction",
+            "Entry candle has closed (not entering mid-candle)",
+            "Volume spike or expansion supports the move (if data available)",
+        ]),
+        ("RISK MANAGEMENT", [
+            "Stop loss placed at logical invalidation level",
+            "Risk per trade ≤ 2% of account capital",
+            "Risk/Reward ratio ≥ 1:2",
+            "TP1, TP2, TP3 levels pre-calculated and set",
+            "Position size calculated using fixed-risk formula",
+        ]),
+    ]
+
+    for section_title, checks in check_sections:
+        e.append(h3(section_title))
+        for item in checks:
+            row = [[Paragraph(f"☐  {item}", BODY)]]
+            t = Table(row, colWidths=[W - 80])
+            t.setStyle(TableStyle([
+                ("BACKGROUND", (0,0),(-1,-1), PANEL_BG),
+                ("TOPPADDING", (0,0),(-1,-1), 4),
+                ("BOTTOMPADDING", (0,0),(-1,-1), 4),
+                ("LEFTPADDING", (0,0),(-1,-1), 12),
+                ("BOX", (0,0),(-1,-1), 0.3, MID_GRAY),
+            ]))
+            e.append(t)
+            e.append(sp(2))
+        e.append(sp(6))
+    e.append(PageBreak())
+    return e
+
+# ══════════════════════════════════════════════════════════════════════════════
+# APPENDIX — Quick Reference
+# ══════════════════════════════════════════════════════════════════════════════
+def build_appendix():
+    e = []
+    e.append(sp(10))
+    e.append(h1("Appendix — Quick Reference Guide"))
+    e.append(hr())
+
+    e.append(h2("Elliott Wave Rules — Absolute Laws"))
+    rows = [
+        [b("Rule"),                      b("Requirement"),                                       b("If Broken")],
+        ["Wave 2 Rule",                  "Wave 2 cannot retrace more than 100% of Wave 1",       "Recount from scratch"],
+        ["Wave 3 Rule",                  "Wave 3 is never the shortest of Waves 1, 3, 5",        "Recount or re-label"],
+        ["Wave 4 Rule",                  "Wave 4 cannot overlap Wave 1 territory",               "May be diagonal or wrong count"],
+    ]
+    e.append(table2(rows, [100, 240, 98]))
+    e.append(sp(8))
+
+    e.append(h2("Elliott Wave Guidelines — Strong Tendencies"))
+    rows = [
+        [b("Guideline"),                 b("Typical Behavior")],
+        ["Wave 2 depth",                 "Retraces 50%–61.8% of Wave 1"],
+        ["Wave 3 length",                "161.8% of Wave 1 (most common extension)"],
+        ["Wave 4 depth",                 "Retraces 38.2% of Wave 3"],
+        ["Wave 5 length",                "Equal to Wave 1, or 61.8% of Waves 1+3"],
+        ["Alternation",                  "If Wave 2 is simple, Wave 4 is complex (and vice versa)"],
+        ["Wave B retracement",           "50%–78.6% of Wave A"],
+        ["Wave C length",                "100% or 161.8% of Wave A"],
+        ["Channel guideline",            "Waves 2 and 4 connect via a parallel channel"],
+    ]
+    e.append(table2(rows, [180, 258]))
+    e.append(sp(8))
+
+    e.append(h2("MACD Settings Reference"))
+    rows = [
+        [b("Market Type"),        b("Fast"), b("Slow"), b("Signal"), b("Notes")],
+        ["Standard (default)",    "12",      "26",       "9",        "Best for daily stocks/FX"],
+        ["Crypto scalping",       "8",       "17",       "9",        "Fast markets, short TF"],
+        ["Forex scalping M5",     "5",       "13",       "5",        "Very fast; more signals"],
+        ["Swing trading",         "12",      "26",       "9",        "Daily/4H standard"],
+        ["Position trading",      "24",      "52",       "18",       "Weekly charts"],
+    ]
+    e.append(table2(rows, [130, 50, 50, 55, 153]))
+    e.append(sp(8))
+
+    e.append(h2("Divergence Quick Reference"))
+    rows = [
+        [b("Type"),              b("Price"),        b("MACD"),        b("Signal"),         b("Wave Context")],
+        ["Regular Bullish",      "Lower Low",       "Higher Low",     "Buy reversal",      "Wave C bottom"],
+        ["Regular Bearish",      "Higher High",     "Lower High",     "Sell reversal",     "Wave 5 top"],
+        ["Hidden Bullish",       "Higher Low",      "Lower Low",      "Buy continuation",  "Wave 2/4 pullback"],
+        ["Hidden Bearish",       "Lower High",      "Higher High",    "Sell continuation", "Wave B bounce"],
+    ]
+    e.append(table2(rows, [100, 75, 75, 85, 103]))
+    e.append(sp(8))
+
+    e.append(h2("Risk Management Quick Reference"))
+    rows = [
+        [b("Parameter"),            b("Rule")],
+        ["Max risk per trade",       "1–2% of total account capital"],
+        ["Minimum R/R ratio",        "1:2 (take profit = 2× stop loss distance)"],
+        ["Ideal R/R ratio",          "1:3 or better"],
+        ["Stop loss location",       "Behind divergence pivot + 0.5–1 ATR buffer"],
+        ["Scaling out",              "30% at 1:1, 40% at 1:2, trail 30% to target"],
+        ["Loss streak rule",         "After 3 losses, halve position size temporarily"],
+        ["Position size formula",    "Size = (Account × Risk%) ÷ (Entry − Stop in $)"],
+    ]
+    e.append(table2(rows, [200, 238]))
+    e.append(sp(8))
+
+    e.append(h2("High-Probability Setup Matrix"))
+    rows = [
+        [b("Setup Name"),                        b("Wave"),    b("MACD"),         b("R/R"),   b("Win Rate Est.")],
+        ["Wave 5 Bearish Reversal",              "5 top",      "Bearish reg. div","1:3+",     "60–70%"],
+        ["Wave C Bullish Reversal",              "C bottom",   "Bullish reg. div","1:3+",     "60–70%"],
+        ["Wave 2 Hidden Bull Continuation",      "2 low",      "Hidden bull div", "1:2–1:4",  "65–75%"],
+        ["Wave 4 Hidden Bull Continuation",      "4 low",      "Hidden bull div", "1:2–1:3",  "60–65%"],
+        ["Ending Diagonal + Bearish Div",        "5 (diag.)", "Bearish reg. div","1:4+",     "70–80%"],
+        ["Multi-TF Divergence Confirmation",     "Any",        "2–3 TF aligned",  "1:3+",     "70–80%"],
+    ]
+    e.append(table2(rows, [165, 60, 95, 55, 63]))
+    e.append(sp(12))
+
+    e.append(h2("Recommended Study Path"))
+    e.append(bullet(b("Week 1–2:") + "  Master Module 1 & 2 — practice counting waves on historical charts"))
+    e.append(bullet(b("Week 3:") + "  Study Module 3 — learn to read MACD momentum; identify histogram peaks"))
+    e.append(bullet(b("Week 4:") + "  Study Module 4 — find and draw at least 20 divergences on past charts"))
+    e.append(bullet(b("Week 5–6:") + "  Study Module 5 — combine wave counts + MACD; paper trade setups"))
+    e.append(bullet(b("Week 7:") + "  Study Modules 6 & 7 — apply multi-TF analysis to paper trading"))
+    e.append(bullet(b("Week 8+:") + "  Apply Module 8 checklist to every live paper trade; review journal weekly"))
+    e.append(sp(4))
+    e.append(p(b(gold("Final advice:")) + "  The best traders are not those who find every setup — they are those who wait for setups where " + b("waves + divergence + trigger + R/R") + " all align perfectly. Patience is your most valuable tool."))
+    e.append(sp(16))
+    e.append(hr(ACCENT2))
+    e.append(sp(6))
+    e.append(Paragraph("Elliott Wave &amp; MACD Divergences — Complete Trading Course  |  2026 Edition",
+             style("footer_txt", fontSize=8, leading=12, textColor=MID_GRAY, alignment=TA_CENTER)))
+    e.append(Paragraph("For educational purposes only. Past performance is not indicative of future results.",
+             style("disclaimer", fontSize=7, leading=10, textColor=MID_GRAY, alignment=TA_CENTER)))
+    return e
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MAIN — build the document
+# ══════════════════════════════════════════════════════════════════════════════
+def build_pdf():
+    output_path = "Elliott_Wave_MACD_Divergences_Course.pdf"
+    doc = SimpleDocTemplate(
+        output_path,
+        pagesize=A4,
+        leftMargin=40, rightMargin=40,
+        topMargin=40,  bottomMargin=35,
+        title="Elliott Wave & MACD Divergences — Complete Trading Course",
+        author="Advanced Technical Analysis Series",
+        subject="Elliott Wave Theory, MACD Divergence, Trading Strategies",
+    )
+
+    story = []
+
+    # Cover (uses special canvas)
+    story += build_cover()
+    story += build_toc()
+    story += build_module1()
+    story += build_module2()
+    story += build_module3()
+    story += build_module4()
+    story += build_module5()
+    story += build_module6()
+    story += build_module7()
+    story += build_module8()
+    story += build_appendix()
+
+    # First page = cover, rest = dark_page
+    def page_template(canvas, doc):
+        if doc.page == 1:
+            cover_page(canvas, doc)
+        else:
+            dark_page(canvas, doc)
+
+    doc.build(story, onFirstPage=page_template, onLaterPages=page_template)
+    print(f"✅  PDF created: {output_path}")
+    return output_path
+
+if __name__ == "__main__":
+    build_pdf()
