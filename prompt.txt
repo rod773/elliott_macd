@@ -1,0 +1,285 @@
+==============================================================
+  META AI VIDEO GENERATION PROMPT
+  Course: Elliott Wave & MACD Divergences — Complete Trading Course
+==============================================================
+
+Use the following prompts sequentially to generate a full-length
+educational trading course video. Each section corresponds to one
+module. Apply consistent visual style throughout.
+
+--------------------------------------------------------------
+GLOBAL STYLE INSTRUCTIONS (apply to ALL scenes)
+--------------------------------------------------------------
+- Visual style: Dark cinematic trading terminal aesthetic
+- Background: Deep navy/dark blue (#0D1B2A) with subtle grid lines
+- Accent colors: Cyan (#00D4FF) for titles, Gold (#FFD700) for highlights,
+  Orange (#FF6B35) for warnings, Green (#00E676) for bullish, Red (#FF1744) for bearish
+- Typography: Clean sans-serif, large bold titles, white body text
+- Charts: TradingView-style candlestick charts with dark background
+- Animations: Smooth wave line draw-ons, glowing price lines, pulse effects on key points
+- Narrator voice: Professional male or female, calm, authoritative, slightly warm
+- Pacing: Medium — not too fast; allow concepts to breathe
+- Music: Ambient electronic / lo-fi, low volume underneath narration
+- Resolution: 1920x1080 HD, 30fps
+
+--------------------------------------------------------------
+INTRO SCENE (0:00 – 0:30)
+--------------------------------------------------------------
+Generate a cinematic intro sequence:
+- Dark background with glowing animated price chart lines flowing across the screen
+- Large bold text fades in: "ELLIOTT WAVE & MACD DIVERGENCES"
+- Subtitle appears below: "Complete Professional Trading Course"
+- Cyan horizontal divider line animates across
+- Course module list fades in one by one from left
+- Narrator: "Welcome to the complete course on Elliott Wave Theory and
+  MACD Divergence trading. In this course you will master wave counting,
+  divergence identification, and how to combine both into high-probability
+  trading setups across any market and timeframe."
+
+--------------------------------------------------------------
+MODULE 1 — ELLIOTT WAVE FOUNDATIONS (0:30 – 4:00)
+--------------------------------------------------------------
+Scene 1.1 — History
+- Split screen: left side shows old newspaper/book aesthetic (sepia tones),
+  right side shows animated wave patterns
+- Text overlay: "R.N. Elliott — 1938"
+- Narrator explains Elliott's discovery during illness, his observation of
+  fractal market patterns driven by crowd psychology
+
+Scene 1.2 — The 5-Wave Impulse
+- Animate a clean 5-wave impulse structure drawing on screen from left to right
+- Each wave draws on one at a time with a glowing line effect
+- Label each point (0,1,2,3,4,5) with gold circles
+- Color waves: 1, 3, 5 in green; 2, 4 in red
+- Pulse highlight on Wave 3 with text: "Wave 3 — Longest & Strongest"
+- Narrator reads the three unbreakable rules as each rule appears on screen
+  with a red X icon for violations
+
+Scene 1.3 — The A-B-C Correction
+- After the 5-wave impulse fades, animate an A-B-C correction forming
+- Wave A in red (down), Wave B in green (up), Wave C in red (down)
+- Show zigzag, flat, and triangle variants as small insets
+- Narrator: "After every motive wave, the market corrects in three waves..."
+
+Scene 1.4 — Wave Degrees
+- Animated zoom-out effect: show a small wave pattern, then zoom out to reveal
+  it is a sub-wave of a larger wave, then zoom out again — fractal nesting
+- Table appears showing degree names and labels
+
+--------------------------------------------------------------
+MODULE 2 — ADVANCED WAVE STRUCTURES (4:00 – 7:30)
+--------------------------------------------------------------
+Scene 2.1 — Wave Extensions
+- Show a standard 5-wave impulse, then replay with Wave 3 extending to 161.8%
+- Highlight with a glowing gold arrow: "Extension — Wave 3 × 161.8%"
+
+Scene 2.2 — Diagonal Triangles
+- Animate a wedge-shaped ending diagonal forming at a price top
+- Add MACD divergence below: price higher high, MACD lower high
+- Flash warning icon: "Reversal Ahead"
+
+Scene 2.3 — Fibonacci Levels
+- Animate a price swing from low to high
+- Draw Fibonacci retracement grid: 23.6%, 38.2%, 50%, 61.8%, 78.6%
+- Price pulls back and bounces at 61.8% — highlight with gold ring
+- Narrator: "Fibonacci 61.8% — the golden ratio — is the most common
+  Wave 2 retracement level"
+
+Scene 2.4 — Fibonacci Clusters
+- Show multiple Fibonacci projections converging on the same zone
+- Zone glows gold: "High-Value Reversal Zone"
+
+--------------------------------------------------------------
+MODULE 3 — MACD DEEP DIVE (7:30 – 11:00)
+--------------------------------------------------------------
+Scene 3.1 — MACD Construction
+- Animated diagram: show two EMAs on a price chart
+- Arrow pointing down: "EMA(12) minus EMA(26) = MACD Line"
+- Second arrow: "EMA(9) of MACD Line = Signal Line"
+- Histogram bars animate in below the price chart
+
+Scene 3.2 — Histogram Momentum
+- Show histogram bars growing tall during a strong move
+- Text: "Tall bars = Strong momentum"
+- Bars shrink: "Shrinking bars = Momentum fading"
+- Narrator: "The histogram does not show price direction —
+  it shows the SPEED of momentum. This is the key to divergence."
+
+Scene 3.3 — MACD Settings
+- Animated comparison: default 12-26-9 vs fast 8-17-9 vs slow 24-52-18
+- Show how faster settings react quicker but produce more noise
+
+Scene 3.4 — MACD by Wave
+- Replay the 5-wave impulse from Module 1 with MACD panel below
+- Highlight MACD peak at Wave 3 with gold glow
+- Show MACD lower at Wave 5: "This is where divergence forms"
+
+--------------------------------------------------------------
+MODULE 4 — DIVERGENCE TRADING (11:00 – 16:00)
+--------------------------------------------------------------
+Scene 4.1 — What is Divergence?
+- Split screen: left = price making lower lows, right = MACD making higher lows
+- Dashed lines drawn connecting the pivots on both sides
+- Text: "Price and momentum disagree → Reversal warning"
+
+Scene 4.2 — Regular Bullish Divergence
+- Animate a downtrending price with two lows (second lower than first)
+- MACD panel below: second low is HIGHER than first low
+- Dashed trendlines drawn on both (price sloping down, MACD sloping up)
+- Green glow on divergence: "Bullish Divergence Confirmed"
+- Show entry trigger: bullish engulfing candle after the second low
+- Stop loss line appears below the low; take profit levels appear above
+
+Scene 4.3 — Regular Bearish Divergence
+- Animate uptrending price making two highs (second higher than first)
+- MACD panel: second high is LOWER than first high
+- Red glow on divergence: "Bearish Divergence Confirmed"
+- Shooting star candle appears at the top as trigger
+- Short entry, stop above high, targets below
+
+Scene 4.4 — Hidden Divergence
+- Show a pullback in an uptrend (higher low on price)
+- MACD makes lower low — hidden bullish divergence
+- Text: "Hidden Divergence = Trend Continuation"
+- Arrow pointing up: "Resume uptrend"
+
+Scene 4.5 — Divergence Reliability
+- Animated scorecard/rating system
+- Show how timeframe, pivot spacing, and wave context affect signal quality
+- Higher timeframe = stronger signal (animated bar filling up)
+
+--------------------------------------------------------------
+MODULE 5 — WAVE + MACD INTEGRATION (16:00 – 20:00)
+--------------------------------------------------------------
+Scene 5.1 — Full Impulse with MACD
+- Animate complete 5-wave impulse on price chart
+- MACD histogram animates in sync below
+- Wave 3: histogram bars glow gold at peak — "Maximum Momentum"
+- Wave 5: price makes new high, histogram is lower — red glow
+- Dashed divergence lines drawn: "Bearish Divergence at Wave 5 Top"
+
+Scene 5.2 — Wave 5 Bearish Reversal Setup
+- Close-up on Wave 5 top area
+- Checklist appears on screen item by item:
+  ✔ 5-wave impulse complete
+  ✔ Wave 3 had highest MACD peak
+  ✔ Wave 5 shows bearish MACD divergence
+  ✔ Shooting star candle at Wave 5 high
+  ✔ Risk/Reward = 1:3
+- Short entry arrow, stop above Wave 5, target at Wave 4 low then Wave 2 low
+
+Scene 5.3 — Wave C Bottom Bullish Reversal
+- Show A-B-C correction completing
+- Price at Wave C low below Wave A low
+- MACD histogram at Wave C makes higher low than at Wave A
+- Green glow: "Bullish Divergence — Wave C Bottom"
+- Buy entry, stop below Wave C, targets at 38.2%, 61.8%, Wave B high
+
+--------------------------------------------------------------
+MODULE 6 — RISK MANAGEMENT (20:00 – 23:00)
+--------------------------------------------------------------
+Scene 6.1 — Entry Triggers
+- Side-by-side comparison of 6 trigger types with visual examples
+- Animate each candle pattern: engulfing, hammer, shooting star
+- MACD signal line crossover highlighted
+
+Scene 6.2 — Stop Loss Placement
+- Animated diagram: trade entry, stop loss below divergence pivot
+- Red zone between entry and stop: "Risk Zone"
+- Text: "Stop = Where the trade is WRONG, not where it hurts"
+
+Scene 6.3 — Trade Setup with R/R
+- Full trade setup animation: entry → TP1 (1:1) → TP2 (1:2) → TP3 (1:3)
+- Green zone between entry and TP1, TP2, TP3 expanding
+- At TP1: "Close 30% — Move stop to breakeven"
+- At TP2: "Close 40% — Trail remaining"
+
+Scene 6.4 — Position Sizing
+- Animated calculator: account $10,000 → risk 1% = $100
+- Stop = 50 points → position size = 2 lots
+- Narrator: "The position size varies — the risk amount never changes"
+
+--------------------------------------------------------------
+MODULE 7 — MULTI-TIMEFRAME ANALYSIS (23:00 – 26:00)
+--------------------------------------------------------------
+Scene 7.1 — Top-Down Approach
+- Animated cascade: Weekly chart → Daily → 4H → 1H → 15m
+- Each timeframe zooms in on the entry zone
+- Narrator: "The higher timeframe defines the direction.
+  The lower timeframe defines the timing."
+
+Scene 7.2 — Multi-TF MACD Alignment
+- Split four-panel view: Weekly, Daily, 4H, 1H all showing MACD
+- Highlight matching divergence signals glowing across all panels
+- Text: "Three-timeframe divergence = Major turning point"
+
+--------------------------------------------------------------
+MODULE 8 — TRADE EXAMPLES (26:00 – 30:00)
+--------------------------------------------------------------
+Scene 8.1 — Live Bullish Example Walkthrough
+- Real-looking chart (BTC or S&P-style) animates from left to right
+- Wave count labels appear one by one
+- MACD panel below syncs with price
+- Bullish divergence forms at Wave C — green pulse
+- Entry, stop, targets annotated in real time
+- Trade outcome: hits TP2 — "Profit: +2R"
+
+Scene 8.2 — Live Bearish Example Walkthrough
+- Chart shows 5-wave impulse completing
+- Wave 5 top forms with bearish divergence — red pulse
+- Short entry annotated, stop, targets
+- Trade outcome: hits TP3 — "Profit: +3R"
+
+Scene 8.3 — Master Checklist Recap
+- Animated checklist slides in from right
+- Each item checks off with a satisfying green tick sound
+- Narrator reads each condition aloud
+
+--------------------------------------------------------------
+OUTRO SCENE (30:00 – 30:30)
+--------------------------------------------------------------
+- Dark background with all wave diagrams and MACD charts fading in softly
+- Large text: "Master the Waves. Trade the Divergences."
+- Subtitle: "Elliott Wave & MACD Divergences — Complete Course"
+- Cyan horizontal line pulses
+- Narrator: "You now have all the tools to identify high-probability
+  reversal setups using Elliott Wave structure and MACD divergence.
+  Practice on historical charts, apply the checklist on every trade,
+  and let the waves guide you. Good luck."
+- Fade to black with subtle logo/watermark
+
+==============================================================
+ADDITIONAL GENERATION NOTES FOR META AI
+==============================================================
+
+1. CONSISTENCY: Maintain the same chart style, color palette,
+   and font throughout all scenes. Do not switch visual themes.
+
+2. TRANSITIONS: Use smooth crossfades or slide transitions between
+   scenes. Avoid hard cuts on educational content.
+
+3. ANNOTATIONS: All chart annotations (wave labels, divergence lines,
+   entry/exit markers) should animate onto the screen sequentially,
+   not appear all at once.
+
+4. AUDIO: Narrator voice should be consistent. Use the same voice
+   actor/style from intro to outro. Music fades slightly when
+   narrator speaks and rises in transitions.
+
+5. PACING: Each module should feel complete — do not rush. Allow
+   2–4 seconds after key concepts before advancing.
+
+6. CHAPTER MARKERS: Add YouTube-style chapter timestamps at:
+   0:00 Intro | 0:30 Module 1 | 4:00 Module 2 | 7:30 Module 3
+   11:00 Module 4 | 16:00 Module 5 | 20:00 Module 6
+   23:00 Module 7 | 26:00 Module 8 | 30:00 Outro
+
+7. LOWER THIRDS: Show module title as a lower-third graphic when
+   each new module begins (cyan accent, dark background bar).
+
+8. DISCLAIMER: Show at intro and outro:
+   "For educational purposes only. Not financial advice."
+
+==============================================================
+END OF PROMPT
+==============================================================
